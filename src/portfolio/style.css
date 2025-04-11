@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    padding:0px 100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+}
+header img{
+    height: 100px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+nav li a{
+    color: white;
+    text-decoration:none;
+    font-size: 22px;
+}
+section{
+    max-width:1280px;
+    margin:auto;
+}
+#banner{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 100px 0px;
+}
+.bannerLeft{
+    flex-direction: column;
+    gap:20px;
+    padding: 100px 0px;
+}
+.bannerLeft h1{
+    font-size: 48px;
+}
+.bannerLeft h1 span{
+    color: green;
+}
+.bannerLeft p{
+    font-size: 28px;
+}
+.bannerLeft.buttons{
+    display: flex;
+    gap:10px;
+}
+.buttons>button{
+    padding: 10px 20px;
+    border-radius: 2opx;
+    background-color: black;
+    color:white;
+    font-size: 24px;
+}
+.buttons>button:nth-child(2)
+{
+    background-color: transparent;
+    border-color: 2px solid green;
+    color: black;
+    
+}
+.buttons>button:nth-child(2):honer{
+    background-color: green;
+    color: white;
+}
+.heading{
+    text-align:center;
+    font-size: 36px;
+    background-image:linear-gradient(45deg,rbg(127,235,127),rgb(14o,140,138));
+    background-clip: text;
+    color: transparent;
+}
+#about{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#about>img{
+    clip-path: circle(150px);
+}
+#about>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap:20px;
+}
+#about>div>p{
+    font-size: 18px;
+    text-align: justify;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.details>div{
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow:5px 10px 25px green;
+}
+.education>ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+#skills{
+    display: grid;
+    grid-template-columns: repeat(s,1fr);
+    gap:20px;
+}
+#skills img{
+    height: auto;
+    max-width: 100%;
+    border-radius: 50%;
+}

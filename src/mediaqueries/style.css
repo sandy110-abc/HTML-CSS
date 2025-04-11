@@ -1,0 +1,48 @@
+body{
+    background-color: green;
+}
+h1{
+    font-size: 20px;
+}
+.images{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+}
+@media(min-width:1000px) {
+    body{
+        background-color: red;
+    }
+    h1{
+        font-size: 50px;
+    }
+    .images{ grid-template-columns: repeat(4,1fr);
+    }
+    .banner{
+        flex-direction: row;
+    }
+}
+    
+@media(min-width:1023px)
+ {
+    body{
+        background-color: yellow;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .images{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .banner{
+        flex-direction: row;
+    }
+    .images>img{
+        height: 300px;
+    }
+}

@@ -1,0 +1,19 @@
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid green;
+    background: yellow;
+    border-radius: 50% 50% 50% 50%;
+    background-image: url("Doraemon.jpg");
+    background-position: center;
+    background-size: cover;
+    transition: all 4s;
+    
+}
+.box:hover{
+    transform: scale(1.5);
+    transform: translate(1000% ,0%);
+    transition: ease-in-out 3s;
+    transform: rotate(360deg);
+   /* transform: rotate(150deg);*/
+}

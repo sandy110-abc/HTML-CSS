@@ -1,0 +1,63 @@
+
+body{
+    justify-content: center;
+    align-items: center;
+
+}
+    #main{
+    height: 40vh;
+    width: 40vw;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns:repeat(3,auto);
+    /*align-items: center;*/
+    /*justify-content: center;*/
+   /* justify-items: center;*/
+    gap: 10px;
+    margin: 120px auto;
+}
+.child{
+   /* height: 100px;
+    width: 10vw;*/
+    border: 3px solid green;
+}
+
+.child1{
+    grid-column: 1/4;
+    background-image: url("nature.jpg");
+    background-position: center;
+    background-size: cover;
+    /* height: 51px; */
+}
+.child2{
+    grid-row: 2/4;
+    background-image:url("rose1.jpg");
+    background-position:center;
+    background-size: cover;
+}
+.child3{
+    grid-column: 2/4;
+    background-image: url("nature1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+    .child4{
+        background-image: url("rose.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+ .child5{
+    background-image: url("nature3.jpg");
+    background-position: center;
+    background-size: cover;
+ }
+.child6
+{
+    grid-column: 1/4;
+    background-image: url("nature4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+ 
+ 

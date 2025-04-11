@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Effect Box</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .box {
+            height: 100px;
+            width: 100px;
+            border: 2px solid green;
+            background: yellow;
+            border-radius: 50%;
+            background-image: url("Doraemon.jpg");
+            background-position: center;
+            background-size: cover;
+            transition: all 4s ease-in-out;
+            
+        }
+
+        .box:hover {
+            transform: scale(1.5) translate(200px, 0) rotate(360deg);
+            transition: all 3s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
